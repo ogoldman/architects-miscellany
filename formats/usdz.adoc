@@ -1,0 +1,20 @@
+
+= USDZ
+
+The Universal Scene Description (USD) file format encodes 3D and associated content.
+
+== Packaging
+
+USDZ is an uncompressed link:zip[] package containing:
+
+* usda, usdc, usd
+* png, jpeg
+* m4a, mp3, wav
+
+The package may not be compressed or encrypted.
+
+TODO: Can it be signed?
+
+== References
+
+* https://graphics.pixar.com/usd/release/spec_usdz.html
