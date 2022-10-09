@@ -1,2 +1,14 @@
 
 # A Software Architect's Miscellany
+
+An evolving collection of useful things from twenty-five years of architectural practice.
+
+// essays -- nothing here yet
+
+* A catalog of link:books/catalog.html[books] on software architecture. 
+
+// A dictionary, because it's impossible to communicate with precision without a precise vocabulary.</p>
+
+// Formats, standards, etc.
+
+This miscellany is a personal project of its author, Oliver Goldman (https://linkedin.com/in/ogoldman[profile]).
