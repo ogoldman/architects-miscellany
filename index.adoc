@@ -5,7 +5,7 @@ An evolving collection of useful things from twenty-five years of architectural 
 
 // essays -- nothing here yet
 
-* A catalog of link:books/catalog.html[books] on software architecture. 
+* A catalog of link:books/books.html[books] on software architecture. 
 
 // A dictionary, because it's impossible to communicate with precision without a precise vocabulary.</p>
 
