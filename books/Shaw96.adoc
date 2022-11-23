@@ -6,9 +6,9 @@ Mary Shaw and David Garlan +
 Prentice Hall, 1996
 
 ++++
-<div style="font-style:italic;padding-right:12px;float:left;text-align:center">
+<div style="padding-right:12px;float:left;">
 <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=architectsmis-20&language=en_US&marketplace=amazon&region=US&placement=0131829572&asins=0131829572&linkId=38dd3de5e8e254262be7feb498776116&show_border=true&link_opens_in_new_window=true"></iframe>
-(paid link)
+<div style="font-style:italic;text-align:center">(paid link)</div>
 </div>
 ++++
 
@@ -28,7 +28,7 @@ The book contains early mentions of the advantages of event-driven architectures
 
 There's also a mention of "extra functional" requirements, which is a label I quite like.
 Later these were called "non-functional" requirements, which I always felt was troubling: in what way was a system functional if it didn't meet requirements of performance, scale, reliability, and so on?
-In other texts these are now called "quality attribtes", which is not bad in a Zen-and-the-Art-of-Motorcycle way, but I'm not sure it's better than "extra functional".
+In other texts these are now called "quality attributes", which is not bad in a Zen-and-the-Art-of-Motorcycle way, but I'm not sure it's better than "extra functional."
 
 The diagrams are awful.
 The Unified Modeling Language might have its detractors, but apparently it was a big improvement on what we were publishing before it came along.
