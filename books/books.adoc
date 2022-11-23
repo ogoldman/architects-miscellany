@@ -1,6 +1,7 @@
-= Reviews
+= Book Reviews
 
-These are books directly related to software architecture.
+These are books on software architecture--or closely related topics--that I've read.
+For each, I've written a brief review that might help guide you to the text you're looking for.
 
 * link:Winograd96.html[_Bringing Design to Software_]
 
