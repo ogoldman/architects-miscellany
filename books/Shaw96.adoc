@@ -2,8 +2,7 @@
 
 == Software Architecture: Perspectives on an Emerging Discipline
 
-Mary Shaw and David Garlan
-
+Mary Shaw and David Garlan +
 Prentice Hall, 1996
 
 Software architecture, as a sub-discipline of software engineering, came into its own in the 1990s and this book is very much a product of its time.
@@ -34,6 +33,8 @@ That may yet change, but I suspect that--as with building architecture--the prob
 
 For those honing their architectural skills for today's technologies and architectures, there's no reason to spend time with this volume.
 If you're interested in the history of software architecture, however, you'll find this a fascinating snapshot in time.
+
+'''
 
 ++++
 <div id="amzn-assoc-ad-c2f92062-7a05-41bc-be70-048948f34e84"></div><script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=c2f92062-7a05-41bc-be70-048948f34e84"></script>
