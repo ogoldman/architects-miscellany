@@ -1,7 +1,10 @@
 
 # A Software Architect's Miscellany
 
-An evolving collection of useful things from twenty-five years of architectural practice.
+An evolving collection of useful things from over twenty-five years of architectural practice.
+
+[quote, Jack Dorsey]
+You don't have to start from scratch to do something interesting.
 
 // essays -- nothing here yet
 
