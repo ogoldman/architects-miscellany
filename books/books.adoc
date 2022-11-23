@@ -2,14 +2,14 @@
 
 These are books directly related to software architecture.
 
-* link:Winograd96.adoc[_Bringing Design to Software_]
+* link:Winograd96.html[_Bringing Design to Software_]
 
-* link:Cervantes16.adoc[_Designing Sofware Architectures_]
+* link:Cervantes16.html[_Designing Sofware Architectures_]
 
-* link:Richards20.adoc[_Fundamentals of Software Architecture_]
+* link:Richards20.html[_Fundamentals of Software Architecture_]
 
-* link:Taylor10.adoc[_Software Architecture: Foundations, Theory, and Practice_]
+* link:Taylor10.html[_Software Architecture: Foundations, Theory, and Practice_]
 
-* link:Shaw96.adoc[_Software Architecture: Perspectives on an Emerging Discipline_]
+* link:Shaw96.html[_Software Architecture: Perspectives on an Emerging Discipline_]
 
 * link:Bass22.html[_Software Architecture in Practice_]
