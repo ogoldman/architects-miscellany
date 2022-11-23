@@ -1,0 +1,36 @@
+= Review
+
+== Software Architecture: Perspectives on an Emerging Discipline
+
+Mary Shaw and David Garlan
+
+Prentice Hall, 1996
+
+Software architecture, as a sub-discipline of software engineering, came into its own in the 1990s and this book is very much a product of its time.
+As such, it is arguably more interesting from a historical perspective now.
+Indeed, it offers an interesting perspective into how software architecture has--and has not--evolved in the fashion that early proponents might have imagined.
+
+Befitting the origins of the sub-discipline, the book has an academic bent.
+Chapter 5, for example, is fascinating exploration of constructing design spaces for architectures written by an author, Thomas Lane, who had addressed the topic in his PhD thesis and related academic projects.I've never encountered anyone who attempted to quantify design choices in the manner he proposes, which makes the chapter that much more fascinating.
+
+Perhaps most striking is how architecture has moved on from the concerns of individual programs to large-scale distributed systems.
+The book is often concerned with mapping concepts to C or Ada, and the logical view of programs written in these languages.
+There are a couple of nodes to client-server computing, but the text pre-dates web and cloud computing and thus many of the examples feel dated.
+
+On the other hand, a few items stand out as somewhat more prescient.
+The book contains early mentions of the advantages of event-driven architectures; arguably, it would be another one to two decades before these came into their own.
+
+There's also a mention of "extra functional" requirements, which is a label I quite like.
+Later these were called "non-functional" requirements, which I always felt was troubling: in what way was a system functional if it didn't meet requirements of performance, scale, reliability, and so on?
+In other texts these are now called "quality attribtes", which is not bad in a Zen-and-the-Art-of-Motorcycle way, but I'm not sure it's better than "extra functional".
+
+The diagrams are awful.
+The Unified Modeling Language might have its detractors, but apparently it was a big improvement on what we were publishing before it came along.
+
+The book spends a good deal of time arguing for, explaining, and using various formal architectural design languages.
+That might be in part an artifact of its academic bent, but I think it also reflects a belief at the time that such languages would soon come into vogue.
+In practice, quite the opposite has been true; they seem to have fizzled out, and I've never seen one put to use in industry.
+That may yet change, but I suspect that--as with building architecture--the problem space simply doesn't lend itself to such formalisms.
+
+For those honing their architectural skills for today's technologies and architectures, there's no reason to spend time with this volume.
+If you're interested in the history of software architecture, however, you'll find this a fascinating snapshot in time.
