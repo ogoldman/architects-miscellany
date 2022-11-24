@@ -18,7 +18,7 @@ Nonetheless, the book weighs in at a significant 400 pages.
 
 Architects will find Part II the most useful.
 Comprising nearly half the book, it defines _quality attributes_&mdash;such as availability--and explains how they are central to architectural thinking.
-The ten "core" quality attributes addressed here are availablity, deployability, energy efficiency, integrability, modifiability, performance, safety, security, testability, and usability.
+The ten "core" quality attributes addressed here are availability, deployability, energy efficiency, integrability, modifiability, performance, safety, security, testability, and usability.
 The "quality attribute" label may be new to some; others will recognize these as "non-functional requirements" or "ilities." (Or even, in link:Shaw96.html[[Shaw96\]], "extra functional" requirements--a term that decidely did not catch on.)
 Where other parts of the book are briefer in their treatment, Part II qualifies as one of, if not the, most comprehensive explanations of these properties.
 
