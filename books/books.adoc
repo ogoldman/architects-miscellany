@@ -2,6 +2,7 @@
 
 These are books on software architecture--or closely related topics--that I've read.
 For each, I've written a brief review that might help guide you to the text you're looking for.
+Or, if you're the ambitious type, feel free to read all of them!
 
 * link:Winograd96.html[_Bringing Design to Software_]
 
@@ -14,3 +15,7 @@ For each, I've written a brief review that might help guide you to the text you'
 * link:Shaw96.html[_Software Architecture: Perspectives on an Emerging Discipline_]
 
 * link:Bass22.html[_Software Architecture in Practice_]
+
+++++
+<div id="amzn-assoc-ad-c2f92062-7a05-41bc-be70-048948f34e84"></div><script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=c2f92062-7a05-41bc-be70-048948f34e84"></script>
+++++
