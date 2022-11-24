@@ -16,6 +16,8 @@ Or, if you're the ambitious type, feel free to read all of them!
 
 * link:Bass22.html[_Software Architecture in Practice_]
 
+'''
+
 ++++
 <div id="amzn-assoc-ad-c2f92062-7a05-41bc-be70-048948f34e84"></div><script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=c2f92062-7a05-41bc-be70-048948f34e84"></script>
 ++++
