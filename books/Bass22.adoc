@@ -2,7 +2,7 @@
 
 == Software Architecture in Practice
 
-Len Bass, Paul Clements, and Rick Kazman; Fourth Ed.+
+Len Bass, Paul Clements, and Rick Kazman; Fourth Ed. +
 Addison-Wesley, 2022
 
 ++++
