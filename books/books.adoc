@@ -6,7 +6,7 @@ Or, if you're the ambitious type, feel free to read all of them!
 
 * link:Winograd96.html[_Bringing Design to Software_]
 
-* link:Cervantes16.html[_Designing Sofware Architectures_]
+* link:Cervantes16.html[_Designing Sofware Architectures: A Practical Approach_]
 
 * link:Richards20.html[_Fundamentals of Software Architecture_]
 
