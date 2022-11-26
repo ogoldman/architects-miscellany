@@ -16,6 +16,12 @@ Or, if you're the ambitious type, feel free to read all of them!
 
 * link:Bass22.html[_Software Architecture in Practice_]
 
+
+'''
+
+[.text-center]
+link:index[Back to the _Miscellany_]
+
 '''
 
 ++++
