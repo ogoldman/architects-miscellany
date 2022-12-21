@@ -1,0 +1,89 @@
+
+= The Collaborative Authoring Cloud Architecture Style
+
+_Document collaboration_ is a category of software providing multiple people the ability to work collaboratively on a shared document. 
+These systems vary along several axes--how many people, what type of document, the nature of the collaboration.
+Nonetheless, on the whole, they support similar capabilities.
+The systems that implement them have accordingly similar architectures that can be considered part of the same style.
+This essay describes that style, the considerations that inform it, and the capabilities it supports.
+
+== Documents
+
+For purposes of this conversation, a document is...
+
+Formats have an interplay with conflict resolution strategies
+
+
+== Collaboration
+
+* synchronous vs. asynchrous 
+* roles
+* real-time
+
+== Operational Modes
+
+online vs. disconnected
+
+== Conflict Resolution
+
+Online-only -- try to avoid conflicts
+Operational transform -- very hard!
+Presence -- try to avoid locking
+Locking -- documents or sub-documents
+Conflict-free Replicated Data Types
+MVCC
+Replay
+
+Automatic resolution
+User-driven resolution
+Interplay with MVCC--does resolution have to  happen before upload?
+
+== Storage
+
+Namespace
+Document types
+Metadata
+
+== Sharing
+
+=== Access Control
+
+role-based
+discretionary 
+predictability
+
+=== Notifications, Discoverability
+
+
+== History
+
+versioning, etc.
+
+== Client-Side Storage
+
+* Sync everything 
+  * file system-based
+  * hidden
+  * Lots of space
+
+* Sync nothing
+  * Cache only
+  * Not predictable, hard to work offline
+
+* Pinning
+  * Give the user some control
+  * Usually a two-part cache: pinned part, recent part
+
+* virtual
+  * Makes it look like everything is synchronized
+  * Provides an obvious place for pinning controls
+  * allows namespace operations on non-synced files
+
+Shared vs. per application
+
+
+== References
+
+https://en.wikipedia.org/wiki/Document_collaboration
+
+https://www.figma.com/blog/how-figmas-multiplayer-technology-works/
