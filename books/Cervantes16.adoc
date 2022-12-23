@@ -30,13 +30,4 @@ Unless you have a specific interest in ADD, you'll probably find the introductio
 The books have many similarities, but where _Software Architecture_ spends far more time on quality attributes, this volume invests its time on ADD.
 If you only read one, go with _Software Architecture_.
 
-'''
-
-[.text-center]
-link:books[Back to _Book Reviews_]
-
-'''
-
-++++
-<div id="amzn-assoc-ad-c2f92062-7a05-41bc-be70-048948f34e84"></div><script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=c2f92062-7a05-41bc-be70-048948f34e84"></script>
-++++
+include::footer.adoc[]

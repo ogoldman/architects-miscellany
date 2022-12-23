@@ -29,13 +29,4 @@ Here the chapters are shallower but, in fairness, each of these topics merits a 
 The book is well-organized into six parts.
 It is a ponderous read cover-to-cover but serves as an excellent reference to dive into when you want to brush up on a particular topic.
 
-'''
-
-[.text-center]
-link:books[Back to _Book Reviews_]
-
-'''
-
-++++
-<div id="amzn-assoc-ad-c2f92062-7a05-41bc-be70-048948f34e84"></div><script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=c2f92062-7a05-41bc-be70-048948f34e84"></script>
-++++
+include::footer.adoc[]
