@@ -6,5 +6,5 @@ Designs are frequently described via one or more artifacts, such as documents an
 Systems are often simultaneously described by multiple designs.
 Those designs might partition the system by element, function, layer, use case, and so on.
 
-A design is a point-in-time realization of an architecture.
+A design is a point-in-time realization of an link:architecture[].
 As a system evolves within its architecure, new designs describe different components and connections within the same constraints.

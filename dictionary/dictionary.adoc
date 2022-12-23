@@ -1,0 +1,9 @@
+
+= The Dictionary
+
+Software architecture tends to suffer from underspecified terminology and, more generally, overuse of jargon.
+Professionals should take care to use well-defined terms with written definitions when possible.
+They might reference Wikipedia or industry sources; organizations and projects may also find it useful, or even necessary, to maintain dictionaries of their own.
+These dictionaries might reiterate standard definitions or address variations or nuances specific to the context. In that spirit, this dictionary defines the software terms used throughout the Miscellany.
+
+* link:architecture[]

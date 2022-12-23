@@ -10,7 +10,7 @@ You don't have to start from scratch to do something interesting.
 
 * A catalog of link:books/books.html[books] on software architecture. 
 
-// A dictionary, because it's impossible to communicate with precision without a precise vocabulary.</p>
+* A link:dictionary/dictionary[dictionary], because it's impossible to communicate with precision without a precise vocabulary.
 
 // Formats, standards, etc.
 

@@ -1,3 +1,3 @@
 = Client
 
-A client is any element playing an initiating role requests in a request-response exchange with another element. 
+A client is any link:element[] playing an initiating role in a request-response exchange with another element. 
