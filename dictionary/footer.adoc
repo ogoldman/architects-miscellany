@@ -1,0 +1,10 @@
+
+'''
+
+[.text-center]
+link:dictionary[Back to the _Dictionary_]
+
+'''
+
+[.text-right]
+(C) 2022 by Oliver Goldman
