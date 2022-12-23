@@ -1,8 +1,24 @@
 
-= Bringing Design to Software
+= Review
 
-Terry Winograd
+== Bringing Design to Software
 
+Terry Winograd +
 ACM Press, 1996
 
-A collection of essays on design and its applicability to software.
+++++
+<div style="padding-right:12px;float:left;">
+<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=architectsmis-20&language=en_US&marketplace=amazon&region=US&placement=0201854910&asins=0201854910&linkId=00fed7f88bb0cda11fc1532e510597aa&show_border=true&link_opens_in_new_window=true"></iframe>
+<div style="font-style:italic;text-align:center;font-size:65%;padding-top:4px">(paid link)</div>
+</div>
+++++
+
+This book contains a collection of essays and interviews captured at a 1992 workshop on software design organized by https://en.wikipedia.org/wiki/Terry_Winograd[Terry Winograd] and others. Amongst the participants and authors are several individuals notable for their roles in the software industry: https://en.wikipedia.org/wiki/Mitch_Kapor[Mitch Kapor], https://en.wikipedia.org/wiki/David_Liddle[David Liddle], https://en.wikipedia.org/wiki/David_M._Kelley[David Kelley], https://en.wikipedia.org/wiki/Don_Norman[Donald Norman]. Each chapter is augmented with a profile of the author or interviewer and their work.
+
+The very first chapter is Mitch Kapor's "A Software Design Manifesto," in which he lays out the need to design software--not just write it--and draws an analogy with building architecture. There is an unbroken chain of thought between what Kapor shared at that workshop and this very site, dedicated as it is to software architecture. In the interview capture in chapter two, David Liddle discusses the importance of a user's conceptual model in designing software as, ultimately, the user's model and the software's model must align (and be useful) to achieve a sucecssful outcome. Daniel Jackson returns to this same topic some thirty years later with _The Essence of Software_, giving one the impression that it's a topic that hasn't received enough attention in the intervening time.
+
+The remaining dozen chapters present various viewpoints and aspects of design, with varying degrees of connection to software design and architecture. Two stand out. First is chapter four on _design languages_, which are conceptually quite similar to architectures in that they describe the elements with which a design works, as well as their relationships. Arguably, design languages tend to place an emphasis on construction (available elements, and how they can be combined) and less so on contraints. Chapter twelve, by Donald Norman, is wonderful first-hand account of how an expert in design, and the author of _The Design of Everyday Things_, struggled to put theory into practice during a stint working at Apple and tackling the simple-seeming problem of how to design a common power switch for the Macintosh.
+
+Like link:[Shaw96], readers are not likely to find much here that is relevant to today's challenges of software design and architecture. And yet, it is a fascinating reminder that the role of these subjects in software development is one that has developed and evolved over time.
+
+include::footer.adoc[]

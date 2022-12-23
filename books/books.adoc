@@ -8,9 +8,9 @@ Or, if you're the ambitious type, feel free to read all of them!
 
 * link:Cervantes16.html[_Designing Sofware Architectures: A Practical Approach_]
 
-* link:Richards20.html[_Fundamentals of Software Architecture_]
+// * link:Richards20.html[_Fundamentals of Software Architecture_]
 
-* link:Taylor10.html[_Software Architecture: Foundations, Theory, and Practice_]
+// * link:Taylor10.html[_Software Architecture: Foundations, Theory, and Practice_]
 
 * link:Shaw96.html[_Software Architecture: Perspectives on an Emerging Discipline_]
 
