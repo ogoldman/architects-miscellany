@@ -1,3 +1,5 @@
+:docinfo: shared
+
 = Review
 
 == Designing Software Architectures: A Practical Approach
