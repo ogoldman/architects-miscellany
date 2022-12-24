@@ -7,6 +7,8 @@ They might reference Wikipedia or industry sources; organizations and projects m
 These dictionaries might reiterate standard definitions or address variations and nuances specific to the context. In that spirit, this dictionary defines the software terms used throughout the Miscellany.
 
 * link:architecture[]
+* link:client[]
+* link:server[]
 
 '''
 
