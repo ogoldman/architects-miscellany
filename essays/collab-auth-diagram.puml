@@ -1,0 +1,13 @@
+@startuml
+
+component client
+
+cloud Cloud {
+  component repository
+  component services
+}
+
+services -down-> repository
+client -right-> Cloud
+
+@enduml
