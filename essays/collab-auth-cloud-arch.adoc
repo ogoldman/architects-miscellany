@@ -46,14 +46,14 @@ So here, too, we'll use an expansive definition.
 === Modes
 
 Collaboration includes both _synchronous_ and _asynchronous_ modes.
-In synchronous collaboration, all individuals editing a document are, logically, editing the same version of the document.
-If they're editing at the same time, then they are seeing a (more-or-less) real-time view of each other's changes.
+In synchronous collaboration, all individuals authoring a document are, logically, authoring the same version of the document.
+If they're authoring at the same time, then they are seeing a (more-or-less) real-time view of each other's changes.
 Given that behavior, this mode is usable when participants are also communicating in real-time, as via video or chat.
 Some collaborative authoring systems provide or integrate with real-time communication systems for this reason.
 
 Conversely, asynchronous collaboration permits individuals to isolate their work from others until an event triggers sharing with other participants.
-When users are working at different times, the result need not be any different than the synchronous collaboration experience.
-However, when users are working simultaneously, an asynchronous mode gives them, in effect, different copies of the document to work with.
+When users are authoring at different times, the result need not be any different than the synchronous collaboration experience.
+However, when users are authoring simultaneously, an asynchronous mode gives them, in effect, different copies of the document to work with.
 In many designs, these "personal" copies can be be maintained indefinitely so that work in progress, even if taking many days to complete, can be completed asynchronously from other updates to the document.
 
 All collaborative authoring systems support at least one of these two modes.
@@ -69,7 +69,22 @@ However, for the remainder of the discussion, we'll ignore such uses and focus o
 
 === Roles
 
-... not all participants play the same role ...
+In describing collaboration modes, we've spoken vaguely about multiple participants "authoring" the same document.
+However, these participants may play different roles during the collaboration.
+Indeed, while not a strict taxonomy, the following list captures several signicant roles:
+
+[horizontal]
+author:: Adds content--typically new, original content--to the the document.
+editor:: Modifies the content for style or correctness, but does not add content.
+reviewer:: Adds comments; might propose changes to content.
+reader:: Can view the document but cannot make changes or add comments.
+
+Not coincidentally, these roles correspond to common steps in the lifecycle of a document.
+First it is authored, then edited, reviewed, and then published for readers.
+Of course, these processes do not usually occur in a linear fashion.
+Authoring, editing, and reviewing often occur in parallel and across multiple iterations.
+Even after publishing, subsequent versions might be developed--perhaps based on reader feedback.
+So while it is possible for document collaboration systems to embody some aspect of workflow, more frequently, they recognize different roles but stop short if imposing a role-based workflow.
 
 === Cardinality
 
