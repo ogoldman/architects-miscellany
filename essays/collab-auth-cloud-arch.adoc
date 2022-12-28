@@ -38,15 +38,51 @@ Therefore collaborative authoring systems, depending on their domain, may need t
 
 == Collaboration
 
-* synchronous vs. asynchrous 
-* roles
-* real-time
+As with documents, we need to define what we mean by collaboration.
+While the exact forms of collaboration that a system supports do, of course, impact its design, these differences are relatively minor.
+Furthermore, many systems support a mix of collaborative modes, as demanded by a mix of use cases.
+So here, too, we'll use an expansive definition.
 
-== Operational Modes
+=== Modes
+
+Collaboration includes both _synchronous_ and _asynchronous_ modes.
+In synchronous collaboration, all individuals editing a document are, logically, editing the same version of the document.
+If they're editing at the same time, then they are seeing a (more-or-less) real-time view of each other's changes.
+Given that behavior, this mode is usable when participants are also communicating in real-time, as via video or chat.
+Some collaborative authoring systems provide or integrate with real-time communication systems for this reason.
+
+Conversely, asynchronous collaboration permits individuals to isolate their work from others until an event triggers sharing with other participants.
+When users are working at different times, the result need not be any different than the synchronous collaboration experience.
+However, when users are working simultaneously, an asynchronous mode gives them, in effect, different copies of the document to work with.
+In many designs, these "personal" copies can be be maintained indefinitely so that work in progress, even if taking many days to complete, can be completed asynchronously from other updates to the document.
+
+All collaborative authoring systems support at least one of these two modes.
+(If they did not, they would not offering any type of collaboration at all.)
+Some support both, albeit at some added complexity.
+Note that neither is intrinsically better than other.
+Many aspects of relevant use cases, including document types, user roles, and other factors--all determine which model is preferable for any given scenario.
+
+It is also true that designs for one mode can, within limits and with effort, be used to achieve behaviors of the other mode.
+For example, a system designed for synchronous collaboration can be used asynchrously by managing when authors are present, or by having authors work on copies of the document in a separate tool.
+Conversely, asynchronous systems can be pushed towards synchronous operation by triggering sharing early and often.
+However, for the remainder of the discussion, we'll ignore such uses and focus on systems being used according to their design.
+
+=== Roles
+
+... not all participants play the same role ...
+
+=== Cardinality
+
+... not always about one document...
+
+
+== Technical Concepts
+
+=== Operational Modes
 
 online vs. disconnected
 
-== Conflict Resolution
+=== Conflict Resolution
 
 Online-only -- try to avoid conflicts
 Operational transform -- very hard!
