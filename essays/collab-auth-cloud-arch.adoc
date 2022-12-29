@@ -130,11 +130,27 @@ Not all designs for collaborative authoring systems will tackle these cases.
 Indeed, many are designed to solve much narrower, single-document cases.
 Nonetheless, any general survey of the design space must consider design aspects that support or facilitate multi-document collaboration.
 
-=== Libraries
 
+== Overview
 
-... not always about one document...
+The essence of the collaborative authoring style is a division of responsibilities in four parts: a *repository* that stores documents, *clients* that edit those documents, a *synchronization mechanism* that manages the movement of data between the clients and the repository, and *services* that augment these other three elements.
 
+[ditaa]
+....
+    + ------------------+                    +--------------+
+    |                   |       use          |              |
+    | Clients           | -----------------> | Services     |
+    |                   |                    |              |
+    +-------------------+                    +--------------+
+           |                                        |
+           | edit                                   | access
+           v                                        v 
+    +-------------------+                    +--------------+
+    |                   |       sync         |              |
+    | Synchronized Data | -----------------> | Repository   |
+    |                   |                    |              |
+    +-------------------+                    +--------------+
+....
 
 == Technical Concepts
 
