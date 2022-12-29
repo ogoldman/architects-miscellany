@@ -86,7 +86,52 @@ Authoring, editing, and reviewing often occur in parallel and across multiple it
 Even after publishing, subsequent versions might be developed--perhaps based on reader feedback.
 So while it is possible for document collaboration systems to embody some aspect of workflow, more frequently, they recognize different roles but stop short if imposing a role-based workflow.
 
-=== Cardinality
+=== Related Documents
+
+So far, we've also been assuming that collaboration operates on a single document.
+That is often the case, but not always.
+A single collaboration can involve multiple documents for a few different reasons.
+
+As discussed above, most document types deal with a specific type of content, such as text or images.
+A collaboration involving multiples types of content may, then, require coordinated use of several documents simply to store different types of content.
+For these use cases, there is typically a single "root" document that provides the overall organization, with links to the "element" documents placed at certain points in the presentation.
+
+For example, page layout applications often work this way.
+They provide formatting, assigning content to pages.
+The page layout document may--and often does--contain some of that content.
+But, elements--such as images--can be referenced from the layout document.
+
+Storing elements in separate documents actually solves two problems.
+It permits mixing-and-matching of different document types, as already mentioned.
+It can also facilitate collaborations containing lots of content--possibly, more content than can fit into a single document.
+Continuing the page layout example, small images might be embedded but large images might be stored as separate documents on the basis of their size alone.
+
+Another use case for related documents occurs when creating even larger works.
+At some point, a single "root" document may be intractably large and the overall work is better modeled as a set of related documents.
+(Each of those documents might, of course, have its own elements.)
+
+For example, consider authoring developer documentation for a platform with tens of interfaces.
+For each interface, the documentation will contain a guide, examples, and a reference.
+That's too much content for a single document, and even a "root" document that lists all hundred or so individual documents doesn't add much value.
+
+In another variation of these use cases, the related documents are parts of a whole but also steps in a process.
+In this use case, a second document is derived from a first, a third from the second, and so on.
+The transformation from one step to the next may include both the addition of some information (that's why the step and a new document is needed), the removal of some information, or both.
+
+As an example, consider creating marketing material for a new product, perhaps for a website.
+The marketing material will contain images of the product, probably rendered from a three-dimensional model.
+It will also contain a description of the product.
+When the model is updated, the renderings must be redone.
+But the text also needs to be updated, lest it be invalidated by changes to the product itself.
+Thus the model, the rendering, and the marketing text may all be part of the collaboration, stored in separate documents, and related by these dependencies.
+
+These are just a few examples that demonstrate how collaborative works can grow so as to involve sets of related documents.
+Not all designs for collaborative authoring systems will tackle these cases. 
+Indeed, many are designed to solve much narrower, single-document cases.
+Nonetheless, any general survey of the design space must consider design aspects that support or facilitate multi-document collaboration.
+
+=== Libraries
+
 
 ... not always about one document...
 
