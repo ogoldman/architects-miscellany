@@ -1,3 +1,4 @@
+:docinfo: shared
 
 # A Software Architect's Miscellany
 
