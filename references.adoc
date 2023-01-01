@@ -1,6 +1,0 @@
-
-https://www.oreilly.com/content/software-architecture-patterns/
-
-https://en.wikipedia.org/wiki/List_of_software_architecture_styles_and_patterns
-
-https://aws.amazon.com/architecture/well-architected/

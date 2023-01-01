@@ -1,7 +1,0 @@
-
-Discuss semantics of names vs. identifiers.
-Absolute names vs. relative names.
-Truly unique identifiers vs. not-so-much.
-Give example of XMP document IDs, instance IDs, etc.
-(Possibly reference Repositry in the collab-auth-cloud essay.)
-Describe how both have their uses and can be supported in combination.
